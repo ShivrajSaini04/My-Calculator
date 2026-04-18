@@ -1,0 +1,96 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    font-weight: bold;
+}
+.outercontainer{
+    /* background-color: rgb(121, 120, 118); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+    
+}
+.container{
+    background-color: rgb(121, 120, 118);
+        height: 20rem;
+        width: 15rem;
+        display: flex;
+        border: 2px solid black;
+        border-radius: 4%;
+        margin-top: 7px;
+        align-content: stretch;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-wrap: wrap;
+}
+.calculationarea{
+    padding-top: 0px;
+    height: 3rem;
+    width: 15rem;
+}
+.btn{
+    margin-right: 12px;
+        padding: 17px;
+        border: 1px solid black;
+        border-radius: 20%;;
+}
+.btn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.btn:active{
+    background-color: white;
+    transform: scale(0.95);
+}
+.row1 .btn{
+    margin-right: 5px;
+}
+.input{
+        font-size: 15px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5%;
+        padding: 14px 27px;
+}
+.row{
+    padding-left: 3px;
+}
+.theme {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* Ise right side le jayega */
+}
+.mode{
+    font-size: 45px;
+    margin-top: 10px;
+     margin-right: 15px;
+    border-radius: 50%;
+}
+.theme-toggle {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.dark {
+    background-color: #1a1a1a;
+    color: white;
+    
+}
+
+.light {
+    background-color: #add8e6;
+    color: black;
+}
+h5{
+    display: flex;
+    text-align: center;
+    align-items:end;
+    justify-content: center;
+}
