@@ -11,11 +11,11 @@ calculation, and a simple user-friendly interface. A dark mode toggle is include
 Perform basic arithmetic operations
 Clear (C) and Delete (DEL) functionality
 Percentage (%) calculation
-Responsive button layout
+Responsive  layout
 Dark mode toggle
 Simple and clean user interface
 
 # Technologies Used
-HTML
-CSS
+HTML ,
+CSS ,
 JavaScript
